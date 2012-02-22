@@ -16,7 +16,7 @@ RDoc::Task.new(:rdoc) do |rdoc|
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
 
-GEM_VERSION = '1.3.3'
+GEM_VERSION = '1.3.3.0.pw1'
 
 Hoe.spec('migration_test_helper') do |p|
   p.author = "Micah Alles" 
